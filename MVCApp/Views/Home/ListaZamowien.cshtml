@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MVCApp.Models.EmployeeModel>
+
+@{
+    ViewBag.Title = "ListaZamowien";
+}
+
+<h2>Lista zamówień</h2>
+
+<p>
+    @Html.ActionLink("Dodaj nowe zamówienie", "SignUp")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.rodzaj_tran)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sposob_zapl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.numer_pojazd)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.rodzaj_tran)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sposob_zapl)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.numer_pojazd)
+        </td>
+    </tr>
+}
+
+</table>

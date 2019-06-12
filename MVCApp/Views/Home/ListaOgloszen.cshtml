@@ -1,0 +1,76 @@
+﻿@model IEnumerable<MVCApp.Models.PojazdModel>
+
+@{
+    ViewBag.Title = "Lista dostępnych pojazdów";
+}
+
+<h2>Lista dostępnych pojazdów</h2>
+
+<p>
+    @Html.ActionLink("Dodaj nowe ogłoszenie", "SignUpPojazd")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.marka)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.model)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rok_prod)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nr_rej)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.przebieg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rodzaj_pal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.kolor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rodzaj_pojazd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.numer_pojazd)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.marka)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.model)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rok_prod)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nr_rej)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.przebieg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rodzaj_pal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.kolor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rodzaj_pojazd)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.numer_pojazd)
+        </td>
+    </tr>
+}
+
+</table>

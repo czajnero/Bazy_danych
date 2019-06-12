@@ -1,0 +1,16 @@
+C:\Users\Czajnero\source\repos\MVCDataFromDatabaseToForm\MVCDemoDB\bin\Debug\MVCDemoDB.dacpac
+C:\Users\Czajnero\source\repos\MVCDataFromDatabaseToForm\MVCDemoDB\bin\Debug\MVCDemoDB.dll
+C:\Users\Czajnero\source\repos\MVCDataFromDatabaseToForm\MVCDemoDB\bin\Debug\MVCDemoDB.pdb
+C:\Users\Czajnero\source\repos\MVCDataFromDatabaseToForm\MVCDemoDB\obj\Debug\MVCDemoDB.dll
+C:\Users\Czajnero\source\repos\MVCDataFromDatabaseToForm\MVCDemoDB\obj\Debug\MVCDemoDB.pdb
+C:\Users\Czajnero\source\repos\MVCDataFromDatabaseToForm\MVCDemoDB\obj\Debug\MVCDemoDB.sqlprojAssemblyReference.cache
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\bin\Debug\MVCDemoDB.dacpac
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\bin\Debug\MVCDemoDB.dll
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\bin\Debug\MVCDemoDB.pdb
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\obj\Debug\MVCDemoDB.sqlprojAssemblyReference.cache
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\obj\Debug\MVCDemoDB.dll
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\obj\Debug\MVCDemoDB.pdb
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\obj\Debug\Model.xml
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\obj\Debug\refactor.xml
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\obj\Debug\postdeploy.sql
+C:\Users\Czajnero\source\repos\Wypo\MVCDemoDB\obj\Debug\predeploy.sql
